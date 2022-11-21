@@ -1,0 +1,50 @@
+/*Made by Samalmi for her personal website
+2022-11-18 - Last edit 2022-11-20
+home page*/
+
+a {
+    font-size: 35;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: #000726;
+    font-size: 25px;
+    margin: 4px 2px;
+}
+
+body {
+    background-color: #fff;
+    margin: 0%;
+    margin-left: 2%;
+}
+
+.button {
+    background-color: #000;
+    border: none;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+menu {
+    height: auto;
+    width: auto;
+    margin-right: 1%;
+    margin-left: auto;
+    border: 0px;
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    position: sticky;
+    float: right;
+    top: 0;
+}
