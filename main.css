@@ -1,11 +1,11 @@
 /*Made by Samalmi for her personal website
-2022-11-18 - Last edit 2022-11-20
+2022-11-18 - Last edit 2022-12-10
 home page*/
 
-a {
-    font-size: 35;
+html {
     margin: 0;
-    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 header {
@@ -16,21 +16,20 @@ header {
 }
 
 body {
-    background-color: #fff;
-    margin: 0%;
-    margin-left: 2%;
+    text-decoration: none;
 }
 
-.button {
-    background-color: #000;
+a.button {
+    background-color: rgb(0, 142, 78);
     border: none;
-    color: whitesmoke;
+    color: initial;
     display: inline-block;
     padding: 15px 32px;
     font-size: 25px;
     margin: 4px 2px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: none;
+    text-decoration: none;
 }
 
 menu {
