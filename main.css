@@ -20,7 +20,7 @@ body {
 }
 
 a.button {
-    background-color: rgb(0, 142, 78);
+    background-color: #000;
     border: none;
     color: initial;
     display: inline-block;
