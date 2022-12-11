@@ -22,7 +22,7 @@ body {
 a.button {
     background-color: #000;
     border: none;
-    color: initial;
+    color: #fff;
     display: inline-block;
     padding: 15px 32px;
     font-size: 25px;
