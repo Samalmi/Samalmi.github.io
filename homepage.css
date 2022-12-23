@@ -2,3 +2,7 @@
 2022-11-18 - Last edit 2022-12-10
 home page*/
 
+body {
+  background-image: url("IMG_9434.jpg");
+  background-repeat: repeat;
+}
