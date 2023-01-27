@@ -6,7 +6,6 @@ html {
     margin: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    columns: 3;
 }
 
 
@@ -21,6 +20,7 @@ header {
 
 body {
     text-decoration: none;
+    columns: 3;
 }
 
 a.button {
