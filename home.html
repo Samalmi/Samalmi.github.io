@@ -52,34 +52,18 @@
       height: 100%;
       z-index: -1;
       pointer-events: none;
-    }
-
-    .moving-margins:before,
-    .moving-margins:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      width: 10%;
-      height: 100%;
-      background-color: #333;
-      opacity: 0.3;
+      background-image: linear-gradient(45deg, #333 25%, transparent 25%), linear-gradient(-45deg, #333 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #333 75%), linear-gradient(-45deg, transparent 75%, #333 75%);
+      background-size: 40px 40px;
+      background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
       animation: moving-margins-animation 5s linear infinite;
     }
 
-    .moving-margins:before {
-      left: 0;
-    }
-
-    .moving-margins:after {
-      right: 0;
-    }
-
     @keyframes moving-margins-animation {
-      0%, 100% {
-        transform: translateY(0);
+      0% {
+        background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
       }
-      50% {
-        transform: translateY(-10%);
+      100% {
+        background-position: 40px 0, 40px 20px, 20px -20px, -20px 0px;
       }
     }
   </style>
@@ -90,33 +74,9 @@
   </header>
   
   <div class="gallery">
-    <img src="photo1.jpg" alt="Photo 1">
-    <img src="photo2.jpg" alt="Photo 2">
-    <img src="photo3.jpg" alt="Photo 3">
-    <!-- Add more image elements as needed -->
+    <!-- Your gallery images here -->
   </div>
 
   <div class="moving-margins"></div>
-
-  <script>
-    // JavaScript code for horizontal scrolling
-    const galleryElement = document.querySelector('.gallery');
-
-    galleryElement.addEventListener('mouseover', () => {
-      galleryElement.scrollBy({
-        top: 0,
-        left: 100,
-        behavior: 'smooth'
-      });
-    });
-
-    galleryElement.addEventListener('mouseleave', () => {
-      galleryElement.scrollBy({
-        top: 0,
-        left: -100,
-        behavior: 'smooth'
-      });
-    });
-  </script>
 </body>
 </html>
