@@ -5,56 +5,45 @@
   <style>
     /* CSS styles for the portfolio website */
     body {
-      background-color: #000;
-      font-family: Verdana, Arial, sans-serif;
+      background-color: #F5F5F5;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      overflow: hidden;
     }
     
     header {
-      background-color: #2E3432;
-      color: #00FF7F;
+      background-color: #333;
+      color: #FFF;
       padding: 20px;
       text-align: center;
     }
     
     h1 {
-      font-size: 48px;
+      font-size: 36px;
       margin: 0;
     }
     
     .gallery {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 20px;
+      display: flex;
+      overflow-x: auto;
       margin: 20px;
     }
     
     .gallery img {
-      width: 100%;
+      width: 300px;
       height: auto;
-      border-radius: 20px;
-      box-shadow: 0 0 10px #00FF7F;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       position: relative;
       overflow: hidden;
+      transition: transform 0.3s ease;
     }
 
-    .gallery img:after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background-color: #00FF7F;
-      opacity: 0.6;
-      z-index: 1;
-      pointer-events: none;
-      transform: rotate(-20deg) skewX(-20deg) translateX(-50%);
+    .gallery img:hover {
+      transform: translateX(10px);
     }
 
-    /* Moving green margins */
+    /* Moving side margins */
     .moving-margins {
       position: fixed;
       top: 0;
@@ -70,9 +59,9 @@
       content: "";
       position: absolute;
       top: 0;
-      width: 50%;
+      width: 10%;
       height: 100%;
-      background-color: #00FF7F;
+      background-color: #333;
       opacity: 0.3;
       animation: moving-margins-animation 5s linear infinite;
     }
@@ -86,11 +75,11 @@
     }
 
     @keyframes moving-margins-animation {
-      0% {
-        transform: translateX(-100%);
+      0%, 100% {
+        transform: translateY(0);
       }
-      100% {
-        transform: translateX(100%);
+      50% {
+        transform: translateY(-10%);
       }
     }
   </style>
@@ -108,5 +97,26 @@
   </div>
 
   <div class="moving-margins"></div>
+
+  <script>
+    // JavaScript code for horizontal scrolling
+    const galleryElement = document.querySelector('.gallery');
+
+    galleryElement.addEventListener('mouseover', () => {
+      galleryElement.scrollBy({
+        top: 0,
+        left: 100,
+        behavior: 'smooth'
+      });
+    });
+
+    galleryElement.addEventListener('mouseleave', () => {
+      galleryElement.scrollBy({
+        top: 0,
+        left: -100,
+        behavior: 'smooth'
+      });
+    });
+  </script>
 </body>
 </html>
