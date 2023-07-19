@@ -6,3 +6,8 @@ body {
   background-image: url("IMG_9434.jpg");
   background-repeat: repeat;
 }
+
+h1 {
+  color: #6699CC
+  text-align: center
+} 
