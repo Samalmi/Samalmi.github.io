@@ -1,72 +1,19 @@
 <!DOCTYPE html>
+
+<!Made by Samalmi for her personal website>
+<!2022-11-18 - Last edit 2023-07-19>
+<!home page>
+
 <html>
 <head>
-  <title>Photography Portfolio</title>
-  <style>
-    /* CSS styles for the portfolio website */
-    body {
-      background-color: #F5F5F5;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #333;
-      color: #FFF;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    h1 {
-      font-size: 36px;
-      margin: 0;
-    }
-    
-    .gallery {
-      display: flex;
-      overflow-x: auto;
-      margin: 20px;
-    }
-    
-    .gallery img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
+  <title>Home</title>
 
-    .gallery img:hover {
-      transform: translateX(10px);
-    }
+<style>
+p {
+  background-image: url('home_background.jpg');
+}
+</style> 
 
-    /* Moving side margins */
-    .moving-margins {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      pointer-events: none;
-      background-image: linear-gradient(45deg, #333 25%, transparent 25%), linear-gradient(-45deg, #333 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #333 75%), linear-gradient(-45deg, transparent 75%, #333 75%);
-      background-size: 40px 40px;
-      background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
-      animation: moving-margins-animation 5s linear infinite;
-    }
-
-    @keyframes moving-margins-animation {
-      0% {
-        background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
-      }
-      100% {
-        background-position: 40px 0, 40px 20px, 20px -20px, -20px 0px;
-      }
-    }
-  </style>
 </head>
 <body>
   <header>
