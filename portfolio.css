@@ -3,12 +3,12 @@
 portfolio page*/
 
 body {
-    background-image: url("https://share.icloud.com/photos/03fQ1bQjzdfuQLM1GMGqjdf8w");
+    background-image: url("https://imgur.com/vZXp6ZO");
     Background-size: cover;
     color: green;
     font-family: Arial;
   
-  a{
+  .a{
     text-decoration: none
     color: green;
   }
