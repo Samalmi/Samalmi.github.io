@@ -2,7 +2,6 @@
 2022-11-18 - Last edit 2022-12-10
 home page*/
 
-body {
-  background-image: url("Home_Background.png");
-  background-size: 100%;
-}
+background-image: url("Home_Background.png");
+background-size: 100%;
+

@@ -2,7 +2,6 @@
 2023-07-23 - Last edit 2023-07-23
 portfolio page*/
 
-body {
-  background-image: url("Home_Background.png");
-  Background-size: cover;
-}
+
+background-image: url("Home_Background.png");
+Background-size: cover;
