@@ -25,9 +25,3 @@ All Page Style Guide*/
   margin: 4px 2px; 
   cursor: pointer;
 }
-
-
-:target {
-  border: 1px solid hwb(73 22% 0% / 0.432), 63%);
-  background-color: hsl(51, 100%, 61%) 100%, 61%);
-}
