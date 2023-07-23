@@ -10,11 +10,10 @@ body {
 a{
   text-decoration: none
   color: green;
-  
 }
 
 header {
-  color: #6699CC;
+  color: red;
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
 } 
