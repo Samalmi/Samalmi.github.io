@@ -4,9 +4,17 @@ home page*/
 
 body {
   background-image: url("Home_Background.png");
+  color: green;
+  font-family: Arial;
+
+a{
+  text-decoration: none
+  color: green;
+  
 }
 
 header {
   color: #6699CC;
   text-align: center;
+  font-family: Georgia, Arial, Helvetica;
 } 
