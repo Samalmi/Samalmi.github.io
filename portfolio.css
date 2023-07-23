@@ -3,14 +3,6 @@
 portfolio page*/
 
 body {
-    background-image: url("https://imgur.com/vZXp6ZO");
-    Background-size: cover;
-    color: green;
-    font-family: Arial;
-  
-  .a{
-    text-decoration: none
-    color: green;
-  }
-  
-  
+  background-image: url("https://imgur.com/vZXp6ZO");
+  Background-size: cover;
+}

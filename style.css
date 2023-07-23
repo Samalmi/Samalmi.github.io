@@ -3,7 +3,7 @@
 All Page Style Guide*/
 
 
-title {
+.title {
     color: red;
     text-align: center;
     font-family: Georgia, Arial, Helvetica;
@@ -13,10 +13,20 @@ title {
     color: white;
   } 
   
-.a {
+.button {
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
-  padding:10%
-  margin: 10px
-  background: white;
+  padding:10%;
+  margin: 10px;
+  background: #32ff65
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; cursor: pointer;
+}
+
+
+:target {
+  border: 1px solid hwb(73 22% 0% / 0.432), 63%);
+  background-color: hsl(51, 100%, 61%) 100%, 61%);
 }
