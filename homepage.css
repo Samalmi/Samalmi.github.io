@@ -4,6 +4,7 @@ home page*/
 
 body {
   background-image: url("Home_Background.png");
+  Background-size: cover;
   color: green;
   font-family: Arial;
 
