@@ -11,6 +11,7 @@ All Page Style Guide*/
     text-align: center;
     background: #152238;
     color: white;
+    display: inline-block;
   } 
   
 .button {
@@ -20,7 +21,7 @@ All Page Style Guide*/
   margin: 10px;
   background: #32ff65;
   text-decoration: none;
-  display: inline-block;
+  
   font-size: 16px;
   margin: 4px 2px; 
   cursor: wait;
