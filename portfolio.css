@@ -1,0 +1,16 @@
+/*Made by Samantha Blair for her personal website
+2023-07-23 - Last edit 2023-07-23
+portfolio page*/
+
+body {
+    background-image: url("https://share.icloud.com/photos/03fQ1bQjzdfuQLM1GMGqjdf8w");
+    Background-size: cover;
+    color: green;
+    font-family: Arial;
+  
+  a{
+    text-decoration: none
+    color: green;
+  }
+  
+  

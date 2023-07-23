@@ -1,0 +1,50 @@
+
+
+html {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    columns: 1;
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: 4px 2px;
+}
+
+body {
+    text-decoration: none;
+    columns: 1;
+}
+
+a.button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: none;
+    text-decoration: none;
+}
+
+menu {
+    height: auto;
+    width: auto;
+    margin-right: 1%;
+    margin-left: auto;
+    border: 0px;
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    position: sticky;
+    float: right;
+    top: 0;
+}
