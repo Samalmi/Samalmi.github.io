@@ -4,5 +4,5 @@ home page*/
 
 body {
   background-image: url("Home_Background.png");
-  background-size: cover;
+  background-size: 100%;
 }
