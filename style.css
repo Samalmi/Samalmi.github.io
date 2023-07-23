@@ -9,7 +9,13 @@ All Page Style Guide*/
     font-family: Georgia, Arial, Helvetica;
     padding: 5%;
     text-align: center;
-    background: #6699CC;
+    background: #152238;
     color: white;
   } 
   
+a{
+  text-align: center;
+  font-family: Georgia, Arial, Helvetica;
+  padding:10%
+  margin: 10px
+}
