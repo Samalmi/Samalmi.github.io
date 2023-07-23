@@ -3,7 +3,7 @@
 All Page Style Guide*/
 
 
-.title {
+title {
     color: red;
     text-align: center;
     font-family: Georgia, Arial, Helvetica;
@@ -13,7 +13,7 @@ All Page Style Guide*/
     color: white;
   } 
   
-a{
+.a {
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
   padding:10%
