@@ -35,11 +35,12 @@ All Page Style Guide*/
 background: none;
 }
 .button:active {
+background: #32ff65;
 size: 6000%;
 }
 
 
-/*attempt to disable scrooling on mobile*/
+/*attempt to disable scrolling on mobile*/
 
 html, body {
   overflow-x: hidden;
