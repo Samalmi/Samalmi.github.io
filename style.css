@@ -24,7 +24,7 @@ All Page Style Guide*/
   color: black;
   background: gold;
   text-decoration: none;
-  box-shadow: inset,goldenrod;
+  box-shadow: 65%, inset,goldenrod;
   
   font-size: 16px;
   margin: 4px 2px; 
@@ -35,7 +35,6 @@ All Page Style Guide*/
 
 
 .button:hover {
-  background: gold;
   box-shadow: none;
   }
 .button:active {
