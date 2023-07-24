@@ -12,9 +12,12 @@ header {
   background: black;
   color: white;
   display: inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
 } 
-  
+
 .button {
+  display: inline-block;
   text-align: left;
   font-family: Georgia, Arial, Helvetica;
   padding: 3px;
@@ -22,8 +25,7 @@ header {
   color: black;
   background: rgb(137, 114, 148);
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px; 
+  font-size: 16px; 
   cursor: pointer;
 }
 
