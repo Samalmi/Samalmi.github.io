@@ -20,10 +20,8 @@ All Page Style Guide*/
   padding: 3px;
   margin: 10px;
   color: black;
-  background: gold;
+  background: rgb(137, 114, 148);
   text-decoration: none;
-  box-shadow: 30px inset ghostwhite;
-  
   font-size: 16px;
   margin: 4px 2px; 
   cursor: pointer;
@@ -33,7 +31,7 @@ All Page Style Guide*/
 
 
 .button:hover {
-  box-shadow: none;
+  background: gold;
   }
 .button:active {
 background: none;
