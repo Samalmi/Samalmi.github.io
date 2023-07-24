@@ -2,8 +2,13 @@
 2022-11-18 - Last edit 2022-12-10
 home page*/
 
-background-image: url("Home_Background.png");
-background-size: 100%;
+html { 
+  background: url(Home_Background.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 img.logo {
 height: 5%;

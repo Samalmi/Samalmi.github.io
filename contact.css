@@ -2,7 +2,9 @@
 2023-07-23 - Last edit 2023-07-23
 contact page*/
 
-body {
-  background-image: url("Home_Background.png");
-  background-size: contain;
-}
+html { 
+  background: url(Home_Background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
