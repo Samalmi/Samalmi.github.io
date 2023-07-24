@@ -5,3 +5,7 @@ home page*/
 background-image: url("Home_Background.png");
 background-size: 100%;
 
+img.logo {
+height: 5%;
+width: auto;
+}
