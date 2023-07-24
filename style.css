@@ -29,6 +29,10 @@ header {
   cursor: pointer;
 }
 
+h2 {
+  display: inline-block
+}
+
 /*make buttons more flashy*/
 
 
