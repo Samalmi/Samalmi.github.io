@@ -5,18 +5,17 @@ All Page Style Guide*/
 /*header block*/
 
 header {
-  background: center;
+  text-align: center;
   font-family: Georgia, Arial, Helvetica;
   padding: 5%;
-  margin: auto;
+  margin: auto%;
   background: black;
   color: white;
   display: inline-block;
 } 
   
 .button {
-  display:inline-block;
-  text-align: center;
+  text-align: left;
   font-family: Georgia, Arial, Helvetica;
   padding: 3px;
   margin: 10px;
