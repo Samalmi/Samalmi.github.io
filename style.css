@@ -5,13 +5,13 @@ All Page Style Guide*/
 /*header block*/
 
 .header {
-    text-align: center;
-    font-family: Georgia, Arial, Helvetica;
-    padding: 5%;
-    background: #152238;
-    color: white;
-    display: inline-block;
-  } 
+  text-align: center;
+  font-family: Georgia, Arial, Helvetica;
+  padding: 5%;
+  background: #152238;
+  color: white;
+  display: inline-block;
+} 
   
 .button {
   display:inline-block;

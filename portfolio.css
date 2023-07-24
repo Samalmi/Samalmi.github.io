@@ -10,3 +10,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.gallery {
+
+  font-family: Georgia, Arial, Helvetica;
+  padding: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #152238;
+  display: inline-block;
+}
