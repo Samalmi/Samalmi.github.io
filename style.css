@@ -27,3 +27,10 @@ All Page Style Guide*/
   margin: 4px 2px; 
   cursor: pointer;
 }
+
+.button:hover {
+background: none;
+}
+.button:active {
+size: 6000%;
+}
