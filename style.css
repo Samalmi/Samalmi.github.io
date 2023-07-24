@@ -4,12 +4,11 @@ All Page Style Guide*/
 
 /*header block*/
 
-.title {
+.header {
     color: red;
     text-align: center;
     font-family: Georgia, Arial, Helvetica;
     padding: 5%;
-    text-align: center;
     background: #152238;
     color: white;
     display: inline-block;
