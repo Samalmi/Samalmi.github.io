@@ -2,6 +2,7 @@
 2022-12-06 - Last edit 2022-12-11
 All Page Style Guide*/
 
+/*header block*/
 
 .title {
     color: red;
@@ -28,9 +29,21 @@ All Page Style Guide*/
   cursor: pointer;
 }
 
+/*make buttons more flashy*/
+
 .button:hover {
 background: none;
 }
 .button:active {
 size: 6000%;
+}
+
+
+/*attempt to disable scrooling on mobile*/
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
 }
