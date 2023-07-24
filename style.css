@@ -8,8 +8,8 @@ header {
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
   padding: 5%;
-  margin: auto%;
-  background: black;
+  margin: auto;
+  background: rgba(66, 78, 94, 0.884);
   color: white;
   white-space: nowrap;
   overflow-x: auto;
