@@ -15,6 +15,7 @@ All Page Style Guide*/
   } 
   
 .button {
+  display:inline-block;
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
   padding: 3px;
