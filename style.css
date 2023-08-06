@@ -37,10 +37,10 @@ h2 {
 
 /*make buttons more flashy*/
 
-
 .button:hover {
-  background: gold;
-  }
+    background-color: #0056b3; /* Change this to the desired hover background color */
+    border-color: #0056b3;
+  
 .button:active {
 background: none;
 }
