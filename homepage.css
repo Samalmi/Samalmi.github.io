@@ -13,6 +13,6 @@ html {
 img.logo {
 display: inline-block;
 background: center;
-width: auto;
-height: 10%;
+width: 10%;
+height: auto;
 }
