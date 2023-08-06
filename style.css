@@ -22,10 +22,10 @@ header {
   padding: 5px;
   margin: 10%;
   display: inline-block;
-  border: 2px solid #007bff; /* Change this to the desired button color */
+  border: 2px solid #007bff; 
   border-radius: 4px;
-  background-color: #007bff; /* Change this to the desired button color */
-  color: #fff; /* Change this to the desired button text color */
+  background-color: #007bff;
+  color: #fff; 
   font-size: 16px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
@@ -35,14 +35,12 @@ h2 {
   display: inline-block
 }
 
-/*make buttons more flashy*/
-
 .button:hover {
-    background-color: #0056b3; /* Change this to the desired hover background color */
+    background: none;
     border-color: #0056b3;
   
 .button:active {
-background: none;
+    background: none;
 }
 
 /*attempt to disable scrolling on mobile*/
