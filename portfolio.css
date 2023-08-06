@@ -11,7 +11,7 @@ html {
   background-size: cover;
 }
 
-.gallery {
+.gallery_flowers {
 
   font-family: Georgia, Arial, Helvetica;
   margin-top: auto;
@@ -20,3 +20,25 @@ html {
   background: #152238;
   display: inline-block;
 }
+
+.gallery_landscape {
+
+  font-family: Georgia, Arial, Helvetica;
+  margin-top: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #152238;
+  display: inline-block;
+}
+
+.gallery_other {
+
+  font-family: Georgia, Arial, Helvetica;
+  margin-top: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #152238;
+  display: inline-block;
+}
+
+
