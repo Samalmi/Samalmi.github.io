@@ -21,11 +21,14 @@ header {
   font-family: Georgia, Arial, Helvetica;
   padding: 5px;
   margin: 10%;
-  color: black;
-  background: rgb(137, 114, 148);
+  display: inline-block;
+  border: 2px solid #007bff; /* Change this to the desired button color */
+  border-radius: 4px;
+  background-color: #007bff; /* Change this to the desired button color */
+  color: #fff; /* Change this to the desired button text color */
+  font-size: 16px;
   text-decoration: none;
-  font-size: 16px; 
-  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 h2 {
