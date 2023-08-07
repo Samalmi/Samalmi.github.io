@@ -11,5 +11,7 @@ html {
 }
 
 body { scale: auto;
-background: black;
+  background: black;
+  opacity: 0.5;
+  text: white;
 }
