@@ -12,7 +12,8 @@ html {
 }
 
 .galleries {
-  height: 35%;
+  height: 100px;
+  width: 100px;
   font-family: Georgia, Arial, Helvetica;
   margin-top: auto;
   background: #152238;
