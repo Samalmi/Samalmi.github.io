@@ -2,6 +2,11 @@
 2022-12-06 - Last edit 2022-12-11
 All Page Style Guide*/
 
+
+.h2 {
+  text-align: center;
+}
+  
 /*header block*/
 
 header {
