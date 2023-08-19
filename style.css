@@ -16,7 +16,7 @@ header {
   margin: auto;
   background: rgba(66, 78, 94, 0.884);
   white-space: nowrap;
-  overflow-x: hidden;
+  overflow-x: auto;
 } 
 
 .button {
@@ -24,7 +24,7 @@ header {
   text-align: left;
   font-family: Georgia, Arial, Helvetica;
   padding: 5px;
-  margin: 10%;
+  margin: auto;
   display: inline-block;
   border: 2px solid yellow; 
   border-radius: 4px;
