@@ -3,7 +3,7 @@
 contact page*/
 
 html { 
-  background: url(Home_Background.png) no-repeat center center fixed; 
+  background-color: black; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
