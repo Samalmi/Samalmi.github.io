@@ -11,6 +11,16 @@ html {
   background-size: cover;
 }
 
+.galleries {
+  height: 100px;
+  width: 100px;
+  font-family: Georgia, Arial, Helvetica;
+  margin-top: auto;
+  background: #152238;
+  display: inline-block;
+  overflow: hidden;
+}
+
 img.logo {
 display: inline-block;
 background: center;
