@@ -21,4 +21,9 @@ html {
   overflow: hidden;
 }
 
-
+img.logo {
+display: inline-block;
+background: center;
+width: 10%;
+height: auto;
+}
