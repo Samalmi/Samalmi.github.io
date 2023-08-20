@@ -21,8 +21,6 @@ header {
 } 
 
 .button {
-  display: inline-block;
-  text-align: left;
   font-family: Georgia, Arial, Helvetica;
   padding: 20px;
   margin: auto;
