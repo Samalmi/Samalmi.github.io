@@ -32,10 +32,6 @@ header {
   font-size: 16px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  border: none;
-  background: linear-gradient(to bottom, #4CAF50, #45a049);
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .button:hover {
