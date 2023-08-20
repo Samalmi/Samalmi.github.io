@@ -13,7 +13,7 @@ header {
   display: inline-block;
   text-align: center;
   font-family: Georgia, Arial, Helvetica;
-  padding: 1%;
+  padding: 10%;
   margin: auto;
   background: rgba(66, 78, 94, 0.884);
   white-space: nowrap;
@@ -21,6 +21,7 @@ header {
 } 
 
 .button {
+  display: inline-block;
   font-family: Georgia, Arial, Helvetica;
   padding: 20px;
   margin: auto;
